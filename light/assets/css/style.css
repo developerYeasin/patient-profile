@@ -1,4 +1,3 @@
-
 .navbar {
   height: 74px;
 }
@@ -13,7 +12,7 @@
   z-index: 9;
 }
 
-#banner::after{
+#banner::after {
   position: absolute;
   content: "";
   top: 0;
@@ -23,15 +22,15 @@
   background: #00000085;
   z-index: -1;
 }
-.change-cover{
+.change-cover {
   position: absolute;
   top: 3%;
   left: 1%;
   opacity: 0;
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
   cursor: pointer;
 }
-.change-cover input{
+.change-cover input {
   position: absolute;
   top: 0%;
   left: 0%;
@@ -49,14 +48,14 @@
   cursor: pointer;
 }
 
-#banner:hover .change-cover{
-opacity: 1;
+#banner:hover .change-cover {
+  opacity: 1;
 }
-.sidebar-nav .metismenu>li a {
+.sidebar-nav .metismenu > li a {
   text-transform: capitalize;
 }
 
-.main-content{
+.main-content {
   position: relative;
   width: 100%;
   overflow-x: hidden;
@@ -130,14 +129,12 @@ opacity: 1;
   transition: all 0.4s ease-in-out;
 }
 
-
-
 .banner-profile:hover button {
   opacity: 1;
   visibility: visible;
 }
 
-.banner-profile button input{
+.banner-profile button input {
   position: absolute;
   top: 0;
   left: 0;
@@ -168,7 +165,7 @@ opacity: 1;
   margin: 0 4px;
   color: #111;
 }
-.user-id{
+.user-id {
   font-size: 20px;
 }
 
@@ -176,8 +173,6 @@ opacity: 1;
   position: relative !important;
   height: 100vh;
 }
-
-
 
 .theme-cyan:before,
 .theme-cyan:after {
@@ -200,7 +195,7 @@ opacity: 1;
 .main-content2 {
   height: 100vh;
 }
-.from-save-button{
+.from-save-button {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -230,19 +225,19 @@ opacity: 1;
   background: #01b2c6;
 }
 
-
-.basic-info, .info-wrap-border{
+.basic-info,
+.info-wrap-border {
   border: 6px solid #01b2c6;
   padding: 10px;
 }
 
-.patient-profile-pic .upload-pic{
+.patient-profile-pic .upload-pic {
   border: 6px solid #01b2c6;
   height: 120px;
   position: relative;
   cursor: pointer;
 }
-.patient-profile-pic .upload-pic input{
+.patient-profile-pic .upload-pic input {
   position: absolute;
   top: 0;
   left: 0;
@@ -251,7 +246,7 @@ opacity: 1;
   opacity: 0;
   cursor: pointer;
 }
-.patient-profile-pic .upload-pic label{
+.patient-profile-pic .upload-pic label {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -259,29 +254,31 @@ opacity: 1;
   text-align: center;
   cursor: pointer;
 }
-.total-patient-conter{
+.total-patient-conter {
   display: grid;
   grid-template-columns: 25% 75%;
 }
 
-.table-select-content{
+.table-select-content {
   width: 100px;
 }
-.net-income-details a{
+.net-income-details a {
   color: inherit;
 }
-.net-income-details .content{
+.net-income-details .content {
   width: 50%;
 }
-.chamber-and-online-patient{
+.chamber-and-online-patient {
   display: grid;
   grid-template-columns: 30% 40%;
 }
-.chamber-and-online-patient h4, .net-income-details h4 {
+.chamber-and-online-patient h4,
+.net-income-details h4 {
   font-size: 20px;
   font-weight: 500;
 }
-.chamber-and-online-patient h5, .net-income-details h5 {
+.chamber-and-online-patient h5,
+.net-income-details h5 {
   font-size: 17px;
   font-weight: 400;
 }
@@ -296,24 +293,25 @@ opacity: 1;
   flex-direction: column;
   justify-content: space-between;
 }
-.patient-report{
+.patient-report {
   display: grid;
   grid-template-columns: 60% 40%;
 }
-.patient-report h3{
+.patient-report h3 {
   display: flex;
   justify-content: start;
   align-items: center;
   margin-bottom: 0;
   font-size: 20px;
 }
-.patient-report select{
+.patient-report select {
   font-size: 18px;
   padding: 2px 9px;
   border-radius: 13px;
-  border: 1px solid #d5d5d5;}
+  border: 1px solid #d5d5d5;
+}
 
-.patient-table-filter-btn{
+.patient-table-filter-btn {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -329,13 +327,13 @@ opacity: 1;
   padding: 10px 19px;
 }
 
-.patient-table-search-input{
+.patient-table-search-input {
   width: 50%;
   margin: 20px auto;
   display: flex;
   background: #fff;
 }
-.patient-table-search-input input{
+.patient-table-search-input input {
   width: 65%;
   padding: 10px 14px;
   border-radius: 0;
@@ -343,30 +341,31 @@ opacity: 1;
   font-size: 17px;
   font-weight: 500;
 }
-.patient-table-search-input input:focus{
+.patient-table-search-input input:focus {
   outline: none;
 }
-.patient-table-search-input select{
+.patient-table-search-input select {
   width: 35%;
   padding: 10px 14px;
   border-radius: 0;
   border: 1px solid #fff;
   font-size: 15px;
-  font-weight: 500;}
-.patient-table-search-input select:focus{
+  font-weight: 500;
+}
+.patient-table-search-input select:focus {
   outline: none;
 }
 
-.date-selector{
+.date-selector {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
 /* .date-selector div{} */
-.date-selector div label{
+.date-selector div label {
   width: 100%;
 }
-.date-selector div input{
+.date-selector div input {
   border-radius: 0;
   border: 1px solid #dbdbdb;
   padding: 2px 14px;
@@ -374,32 +373,32 @@ opacity: 1;
   width: 100%;
   font-size: 14px;
 }
-.date-selector p{ 
+.date-selector p {
   margin-bottom: 0;
   margin-top: 27px;
 }
 
-.view-icon{
+.view-icon {
   font-size: 22px;
   color: #111;
 }
 
-.border-buttom{
+.border-buttom {
   border-bottom: 1px solid #cbcbcb;
 }
 
-.theme-cyan .sidebar-nav .metismenu>li.active>a{
+.theme-cyan .sidebar-nav .metismenu > li.active > a {
   color: #01b2c6;
 }
 
-.commision-details{
+.commision-details {
   padding: 0;
   margin: 0;
 }
-.commision-details li p{
+.commision-details li p {
   font-size: 20px;
 }
-.chat-app-btn{
+.chat-app-btn {
   position: absolute;
   top: 21px;
   right: 12px;
@@ -408,80 +407,79 @@ opacity: 1;
   font-size: 19px !important;
   z-index: 9;
 }
-.chat-app-btn:active{
+.chat-app-btn:active {
   outline: none;
 }
-.chat-app-btn:focus{
+.chat-app-btn:focus {
   outline: none;
   box-shadow: none;
 }
-
 
 .chat-app .people-list.active {
   left: 0px !important;
   display: block !important;
 }
-.offcanvas-active #left-sidebar{
-  left: 5px !important; 
+.offcanvas-active #left-sidebar {
+  left: 5px !important;
 }
 
-.payment-type{
+.payment-type {
   font-size: 17px;
 }
-.payment-type span{
+.payment-type span {
   font-size: 15px;
   margin-left: 10px;
 }
-.select-paymet-method select{
+.select-paymet-method select {
   border: none;
   margin-left: 10px;
 }
-.select-paymet-method select:focus{
-outline: none;
+.select-paymet-method select:focus {
+  outline: none;
 }
 
-.details-list{
+.details-list {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-.details-list li{
+.details-list li {
   font-size: 18px;
   font-weight: 500;
   color: #111;
 }
-.details-list li span{ 
+.details-list li span {
   color: rgb(83, 83, 83);
   margin-left: 5px;
 }
 
-.profile-user-img{
+.profile-user-img {
   width: 200px;
   height: 220px;
   margin-left: auto;
 }
-.profile-user-img img{
+.profile-user-img img {
   width: 100%;
   height: 100%;
 }
-.profile-contact-info{
+.profile-contact-info {
   display: grid;
-  grid-template-columns: 50% 50%; 
+  grid-template-columns: 50% 50%;
   border: 1px solid #01b2c6;
   margin: 0;
   padding: 0;
 }
-.contact-information{
+.contact-information {
   border-right: 1px solid #01b2c6;
   border-left: 1px solid #01b2c6;
 }
-.contact-info-title{
+.contact-info-title {
   border-bottom: 1px solid #01b2c6;
 }
-.contact-information ul{
+.contact-information ul {
   padding: 10px 20px;
 }
-.contact-info-title h4{
+.contact-info-title h4 {
   padding: 5px 20px;
   margin-bottom: 0;
   font-size: 22px;
@@ -492,17 +490,17 @@ outline: none;
   margin: 0;
   margin-top: 30px;
 }
-.terms-list li{
+.terms-list li {
   display: grid;
   grid-template-columns: 20px 80%;
   column-gap: 10px;
   margin: 10px 0;
 }
-.terms-list li i{
+.terms-list li i {
   color: #01b2c6;
   font-size: 20px;
 }
-.terms-list li p{
+.terms-list li p {
   margin-bottom: 0;
   font-size: 15px;
   line-height: 20px;
@@ -513,21 +511,43 @@ div#left-sidebar {
   padding-bottom: 30px;
 }
 
-.card-link:hover .body,.card-link:hover .card{
+.card-link:hover .body,
+.card-link:hover .card {
   color: #01b2c6;
-  }
-.notification li{
+}
+
+.show-password {
+  position: relative;
+  height: 36px;
+  width: 100%;
+}
+.show-password input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.show-password i {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.notification li {
   font-size: 18px;
   margin: 10px 0;
   font-weight: 500;
 }
 @media (max-width: 1200px) {
-  #left-sidebar{
+  #left-sidebar {
     position: fixed !important;
     top: 0;
-    left: -250px !important; 
+    left: -250px !important;
     margin-top: 45px !important;
-  }  
+  }
   .navbar {
     height: 45px;
   }
@@ -540,124 +560,123 @@ div#left-sidebar {
   .navbar-button {
     font-size: 10px;
     padding: 1px 4px;
-}
-#top_counter .icon i {
-  font-size: 20px !important;
-}
-#top_counter .text{
-  font-size: 10px;
-}
-#top_counter .number{
-  font-size: 12px;
-}
-.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
-  margin-left: 0 !important;
-  padding: 0px;
-}
-.navbar-brand i {
-  font-size: 22px;
-}
-
+  }
+  #top_counter .icon i {
+    font-size: 20px !important;
+  }
+  #top_counter .text {
+    font-size: 10px;
+  }
+  #top_counter .number {
+    font-size: 12px;
+  }
+  .navbar > .container .navbar-brand,
+  .navbar > .container-fluid .navbar-brand {
+    margin-left: 0 !important;
+    padding: 0px;
+  }
+  .navbar-brand i {
+    font-size: 22px;
+  }
 }
 
 @media (max-width: 768px) {
   #top_counter .icon i {
     font-size: 10px !important;
+  }
+  .banner-title h1 {
+    font-size: 10px;
+    padding: 4px 4px;
+  }
+  .banner-social-link {
+    padding: 0px 0px;
+    width: 90px;
+  }
+  .banner-social-link ul li a {
+    font-size: 13px;
+    margin: 0 0px;
+  }
+  .card .header {
+    padding: 4px;
+  }
+  .card .body {
+    padding: 4px;
+  }
+  .patient-table-search-input {
+    width: 100%;
+  }
+  .chat-app .people-list {
+    padding-top: 64px !important;
+  }
+  .profile-contact-info {
+    display: block;
+  }
 }
-.banner-title h1 {
-  font-size: 10px;
-  padding: 4px 4px;
-}
-.banner-social-link {
-  padding: 0px 0px;
-  width: 90px;
-}
-.banner-social-link ul li a {
-  font-size: 13px;
-  margin: 0 0px;
-}
-.card .header {
-  padding: 4px;
-}
-.card .body {
-  padding: 4px;
-}
-.patient-table-search-input {
-  width: 100%;
-}
-.chat-app .people-list {
-  padding-top: 64px !important;
-}
-.profile-contact-info{
-  display: block;
-}
-}
-
 
 @media (max-width: 560px) {
-  .user-id{
+  .user-id {
     font-size: 16px;
   }
   #top_counter .text {
     font-size: 7px;
-}
-#top_counter .number {
-  font-size: 7px;
-}
-.from-save-button button {
-  padding: 3px 6px;
-  font-size: 12px;
-}
-.from-save-button .btn-darft {
-  padding: 3px 6px;
-  font-size: 12px;
-}
-#banner {
-  height: 130px;
-}
-.banner-profile .profile-img {
-  height: 65px;
-  width: 65px;
-}
-.banner-profile {
-padding: 0 0;
-width: 80px;
-height: 80px;
-}
-.date-selector {
-  display: block;
-  padding: 16px 14px;
-}
-.date-selector p {
-  margin-top: 20px;
-  text-align: center;
-}
-.patient-table-search-input input {
-  font-size: 10px;
-  font-weight: 400;
-}
-.patient-table-search-input select {
-  font-size: 8px;
-  font-weight: 500;
-  padding: 10px 0;
-}
-.chamber-and-online-patient {
-  display: block;
-}
-.net-income-details h4 {
-  font-size: 14px;
-}
-.net-income-details h5 {
-  font-size: 12px;
-}
-.commision-title{
-  font-size: 18px;
-}
-.commision-details li h5 {
-  font-size: 10px;
-}
-.commision-details li p {
-  font-size: 10px;
-  margin-bottom: 0;
-}
+  }
+  #top_counter .number {
+    font-size: 7px;
+  }
+  .from-save-button button {
+    padding: 3px 6px;
+    font-size: 12px;
+  }
+  .from-save-button .btn-darft {
+    padding: 3px 6px;
+    font-size: 12px;
+  }
+  #banner {
+    height: 130px;
+  }
+  .banner-profile .profile-img {
+    height: 65px;
+    width: 65px;
+  }
+  .banner-profile {
+    padding: 0 0;
+    width: 80px;
+    height: 80px;
+  }
+  .date-selector {
+    display: block;
+    padding: 16px 14px;
+  }
+  .date-selector p {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .patient-table-search-input input {
+    font-size: 10px;
+    font-weight: 400;
+  }
+  .patient-table-search-input select {
+    font-size: 8px;
+    font-weight: 500;
+    padding: 10px 0;
+  }
+  .chamber-and-online-patient {
+    display: block;
+  }
+  .net-income-details h4 {
+    font-size: 14px;
+  }
+  .net-income-details h5 {
+    font-size: 12px;
+  }
+  .commision-title {
+    font-size: 18px;
+  }
+  .commision-details li h5 {
+    font-size: 10px;
+  }
+  .commision-details li p {
+    font-size: 10px;
+    margin-bottom: 0;
+  }
 }
