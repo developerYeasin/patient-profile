@@ -296,8 +296,6 @@ opacity: 1;
   flex-direction: column;
   justify-content: space-between;
 }
-.carousel-item .content h5{}
-
 .patient-report{
   display: grid;
   grid-template-columns: 60% 40%;
@@ -309,7 +307,6 @@ opacity: 1;
   margin-bottom: 0;
   font-size: 20px;
 }
-.patient-report div{}
 .patient-report select{
   font-size: 18px;
   padding: 2px 9px;
@@ -399,7 +396,6 @@ opacity: 1;
   padding: 0;
   margin: 0;
 }
-.commision-details li h5{}
 .commision-details li p{
   font-size: 20px;
 }
@@ -436,8 +432,6 @@ opacity: 1;
   font-size: 15px;
   margin-left: 10px;
 }
-.select-paymet-method{}
-.select-paymet-method label{}
 .select-paymet-method select{
   border: none;
   margin-left: 10px;
@@ -519,6 +513,14 @@ div#left-sidebar {
   padding-bottom: 30px;
 }
 
+.card-link:hover .body,.card-link:hover .card{
+  color: #01b2c6;
+  }
+.notification li{
+  font-size: 18px;
+  margin: 10px 0;
+  font-weight: 500;
+}
 @media (max-width: 1200px) {
   #left-sidebar{
     position: fixed !important;
@@ -591,9 +593,6 @@ div#left-sidebar {
 }
 }
 
-.card-link:hover .body,.card-link:hover .card{
-color: #01b2c6;
-}
 
 @media (max-width: 560px) {
   .user-id{
