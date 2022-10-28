@@ -16,31 +16,31 @@ function showPassword(INPUT, SHOW, HIDE) {
   INPUT.type = "text";
   SHOW.style.display = "none";
   HIDE.style.display = "block";
-}
+};
 function hidePassword(INPUT, SHOW, HIDE) {
   INPUT.type = "password";
   HIDE.style.display = "none";
   SHOW.style.display = "block";
-}
+};
 
 show.addEventListener("click", () => {
   showPassword(currentPassword, show, hide)
-})
+});
 hide.addEventListener("click", () => {
   hidePassword(currentPassword, show, hide)
-})
+});
 newShow.addEventListener("click", () => {
   showPassword(newPassword, newShow, newHide)
-})
+});
 newHide.addEventListener("click", () => {
   hidePassword(newPassword, newShow, newHide)
-})
+});
 confirmShow.addEventListener("click", () => {
   showPassword(confirmPassword, confirmShow, confirmHide)
-})
+});
 confirmHide.addEventListener("click", () => {
   hidePassword(confirmPassword, confirmShow, confirmHide)
-})
+});
 
 //chat app tap
 
