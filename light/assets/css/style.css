@@ -587,10 +587,10 @@ div#left-sidebar {
     position: fixed !important;
     top: 0;
     left: -250px !important;
-    margin-top: 45px !important;
+    margin-top: 77px !important;
   }
   .navbar {
-    height: 45px;
+    /* height: 45px; */
   }
   #banner {
     margin-top: 45px;
